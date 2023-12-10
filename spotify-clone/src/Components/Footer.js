@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
 import { useStateValue } from "./StateProvider";
 import PlayCircleOutlineIcon from "@material-ui/icons/PlayCircleOutline";
