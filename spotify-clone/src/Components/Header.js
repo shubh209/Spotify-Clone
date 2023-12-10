@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import "./Header.css";
 import { useStateValue } from "./StateProvider";
-import { Avatar } from "@material-ui/core";
-import SearchIcon from "@material-ui/icons/Search";
-import { useEffect } from "react";
+import { Avatar } from "@mui/material";
+import SearchIcon from '@mui/icons-material/Search';
+// import { useEffect } from "react";
 
 function Header({ spotify }) {
   const [{ user }, dispatch] = useStateValue();
